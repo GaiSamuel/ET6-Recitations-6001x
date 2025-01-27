@@ -50,3 +50,17 @@ Example Scenarios:
     Input: 0
     Output: "x is zero"
 """
+def problem_5():
+    number = int(input("Enter a number: "))
+
+    if number > 0 and number % 2 == 0:
+        print("The number is a positive even number")
+    
+    elif number > 0 and number % 2 != 0:
+        print("The number is a positive odd number")
+    
+    elif number < 0:
+        print("The number is a negative number")
+    
+    else:
+        print("The number is zero")
